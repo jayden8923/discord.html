@@ -1,0 +1,26 @@
+{
+  "name": "@jayden8923/discord.html",
+  "version": "0.0.1",
+  "description": "A simple discord.js thing for HTML code by jayden.",
+  "main": "scripts/module.js",
+  "scripts": {
+    "start": "node scripts/module.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "jsdom": "^16.2.2",
+    "discord.js": "^12.2.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://github.com/jayden8923/discord.html.git"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/" 
+  }
+}

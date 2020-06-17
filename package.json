@@ -7,8 +7,6 @@
     "start": "node scripts/module.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "https": "^1.0.0",
     "jsdom": "^16.2.2",
     "discord.js": "^12.2.0"
   },

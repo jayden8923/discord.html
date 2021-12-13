@@ -1,11 +1,11 @@
 const https = require('https');
-const apiendpoint = 'https://discordapp.com/api/v6';
+const apiendpoint = 'https://discord.com/api/v9';
 const HTML = require('./bot-html.js');
 
 module.exports.guild = {
   "icon": async (guild_id) => {
       let options = {
-  hostname: 'discordapp.com',
+  hostname: 'discord.com',
   port: 443,
   path: `${apiendpoint}/icons/${guild_id}/guild_icon.png`,
   method: 'GET'
@@ -23,7 +23,7 @@ req.end()
   },
 "banner": async (guild_id) => {
         let options = {
-  hostname: 'discordapp.com',
+  hostname: 'discord.com',
   port: 443,
   path: `${apiendpoint}/banners/${guild_id}/guild_banner.png`,
   method: 'GET'
